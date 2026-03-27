@@ -1,4 +1,4 @@
-import "./styles/Career.css";
+import "../styles/components/Career.css";
 
 const Career = () => {
   return (
@@ -15,37 +15,49 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Software Engineering Intern</h4>
-                <h5>MyFunded Futures</h5>
+                <h4>HackIndia 2025</h4>
+                <h5>Collaborator</h5>
               </div>
-              <h3>08/2025 - Present</h3>
+              <h3>2025</h3>
             </div>
             <p>
-              Collaborated with business teams to assess PRDs and perform acceptance testing. Built and integrated APIs and automation scripts to improve platforms.
+              Collaborated in a fast-paced team to design scalable AI-based solutions under time constraints.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Freelance Software Developer</h4>
-                <h5>Fiverr Inc</h5>
+                <h4>AI Hack Day 2025</h4>
+                <h5>NLP Developer</h5>
               </div>
-              <h3>02/2024 - Present</h3>
+              <h3>2025</h3>
             </div>
             <p>
-              Engineered end-to-end MVPs and scalable web solutions using Django, PostgreSQL, and React. Managed full development lifecycle for diverse global clients.
+              Worked on evaluation metrics and analysis of model outputs.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>BTech, Computer Science</h4>
-                <h5>Rajasthan Technical University</h5>
+                <h4>Google Solution Challenge 2025</h4>
+                <h5>Contributor</h5>
               </div>
-              <h3>07/2023 - Present</h3>
+              <h3>2025</h3>
             </div>
             <p>
-              Coursework includes Artificial Intelligence, Object Oriented Programming, Data Structures & Algorithms, and DBMS.
+              Worked on evaluation metrics and analysis of model outputs.
+            </p>
+          </div>
+          <div className="career-info-box">
+            <div className="career-info-in">
+              <div className="career-role">
+                <h4>BTech, Computer Science (Data Science)</h4>
+                <h5>VNRVJIET, Hyderabad</h5>
+              </div>
+              <h3>2023 - 2027</h3>
+            </div>
+            <p>
+              Coursework includes Artificial Intelligence, Data Structures & Algorithms, Operating Systems, DBMS, Computer Networks, and Machine Learning. CGPA: 8.20/10
             </p>
           </div>
         </div>

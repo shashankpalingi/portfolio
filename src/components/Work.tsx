@@ -1,26 +1,32 @@
 import { useState, useCallback, useEffect } from "react";
-import "./styles/Work.css";
+import "../styles/components/Work.css";
 import WorkImage from "./WorkImage";
 import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
   {
-    title: "Note Taking Application",
-    category: "Full Stack Web App",
-    tools: "Django REST API, React, Vite",
-    image: "/images/Solidx.png",
+    title: "Study Buddy",
+    category: "Collaborative Learning Platform",
+    tools: "React, TypeScript, Supabase, PeerJS, WebRTC",
+    image: "/images/placeholder.webp",
   },
   {
-    title: "Image Resizer",
-    category: "Full Stack Web App",
-    tools: "Node.js, Express, MongoDB",
-    image: "/images/radix.png",
+    title: "FileMind",
+    category: "Document Intelligence System",
+    tools: "React, FastAPI, Supabase, LLMs",
+    image: "/images/placeholder.webp",
   },
   {
-    title: "Movie Database",
-    category: "React App",
-    tools: "External Movie API, Real-time Data",
-    image: "/images/bond.png",
+    title: "Content-Flow",
+    category: "Workflow & Task Management",
+    tools: "React.js, TypeScript, Node.js, AWS Lambda",
+    image: "/images/placeholder.webp",
+  },
+  {
+    title: "Second Brain",
+    category: "Knowledge Management Application",
+    tools: "Vector Embeddings, Semantic Search",
+    image: "/images/placeholder.webp",
   },
 ];
 

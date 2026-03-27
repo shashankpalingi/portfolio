@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import "./styles/WhatIDo.css";
+import "../styles/components/WhatIDo.css";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 const WhatIDo = () => {
@@ -97,10 +97,10 @@ const WhatIDo = () => {
               <div className="what-content-flex">
                 <div className="what-tags">React.js</div>
                 <div className="what-tags">TypeScript</div>
-                <div className="what-tags">GenAI</div>
+                <div className="what-tags">JavaScript</div>
                 <div className="what-tags">HTML5</div>
                 <div className="what-tags">CSS3</div>
-                <div className="what-tags">JavaScript</div>
+                <div className="what-tags">REST APIs</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -132,16 +132,16 @@ const WhatIDo = () => {
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">Python</div>
-                <div className="what-tags">Django</div>
-                <div className="what-tags">Django Rest Framework</div>
-                <div className="what-tags">PostgreSQL</div>
-                <div className="what-tags">MySQL</div>
-                <div className="what-tags">Redis</div>
-                <div className="what-tags">Celery</div>
                 <div className="what-tags">Node.js</div>
                 <div className="what-tags">Express.js</div>
-                <div className="what-tags">AWS</div>
+                <div className="what-tags">FastAPI</div>
+                <div className="what-tags">Python</div>
+                <div className="what-tags">Java</div>
+                <div className="what-tags">SQL</div>
+                <div className="what-tags">MongoDB</div>
+                <div className="what-tags">Supabase</div>
+                <div className="what-tags">Firebase</div>
+                <div className="what-tags">AWS Lambda</div>
               </div>
               <div className="what-arrow"></div>
             </div>

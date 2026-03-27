@@ -1,17 +1,19 @@
 import { PropsWithChildren } from "react";
-import "./styles/Landing.css";
+import "../styles/components/Landing.css";
+import Pattern from "./Pattern";
 
 const Landing = ({ children }: PropsWithChildren) => {
   return (
     <>
       <div className="landing-section" id="landingDiv">
+        <Pattern />
         <div className="landing-container">
           <div className="landing-intro">
-            <h2>Hello! I'm</h2>
+            <h2>Hi! I'm</h2>
             <h1>
-              NEERAJ
+              SHASHANK
               <br />
-              <span>SINGH CHAUHAN</span>
+              <span>PALINGI</span>
             </h1>
           </div>
           <div className="landing-info">

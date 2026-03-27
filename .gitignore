@@ -26,3 +26,13 @@ dist-ssr
 
 backup/
 .env
+
+# TypeScript build info
+*.tsbuildinfo
+
+# AI Agent metadata
+.gemini/
+.agents/
+.agent/
+_agents/
+_agent/

@@ -1,4 +1,4 @@
-import "./styles/About.css";
+import "../styles/components/About.css";
 
 const About = () => {
   return (
@@ -6,7 +6,7 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          Software Engineer and Computer Science student with hands-on experience in building scalable backend systems, AI-driven automation, and full-stack applications using Python, Django, and React.
+          Software Engineer and Computer Science (Data Science) student with hands-on experience in building scalable backend systems, AI-driven automation, and full-stack applications. Certified in DS & Algorithms, GenAI, and Full Stack Development.
         </p>
       </div>
     </div>

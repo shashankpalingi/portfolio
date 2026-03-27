@@ -3,7 +3,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import HoverLinks from "./HoverLinks";
 import { gsap } from "gsap";
 import { ScrollSmoother } from "gsap/ScrollSmoother";
-import "./styles/Navbar.css";
+import "../styles/components/Navbar.css";
 
 gsap.registerPlugin(ScrollSmoother, ScrollTrigger);
 export let smoother: ScrollSmoother;
@@ -43,14 +43,14 @@ const Navbar = () => {
     <>
       <div className="header">
         <a href="/#" className="navbar-title" data-cursor="disable">
-          NS
+          <img src="/portfolio_logo.png" alt="Logo" className="logo-img" />
         </a>
         <a
-          href="mailto:neerajsinghchauhan0000@gmail.com"
+          href="mailto:shashankpalingi08@gmail.com"
           className="navbar-connect"
           data-cursor="disable"
         >
-          neerajsinghchauhan0000@gmail.com
+          shashankpalingi08@gmail.com
         </a>
         <ul>
           <li>

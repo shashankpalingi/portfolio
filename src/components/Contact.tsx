@@ -1,5 +1,5 @@
 import { MdArrowOutward, MdCopyright } from "react-icons/md";
-import "./styles/Contact.css";
+import "../styles/components/Contact.css";
 
 const Contact = () => {
   return (
@@ -10,8 +10,8 @@ const Contact = () => {
           <div className="contact-box">
             <h4>Email</h4>
             <p>
-              <a href="mailto:neerajsinghchauhan0000@gmail.com" data-cursor="disable">
-                neerajsinghchauhan0000@gmail.com
+              <a href="mailto:shashankpalingi08@gmail.com" data-cursor="disable">
+                shashankpalingi08@gmail.com
               </a>
             </p>
             <h4>Education</h4>
@@ -20,7 +20,7 @@ const Contact = () => {
           <div className="contact-box">
             <h4>Social</h4>
             <a
-              href="https://github.com/neerajsinghchauhan"
+              href="https://github.com/shashankpalingi"
               target="_blank"
               data-cursor="disable"
               className="contact-social"
@@ -28,7 +28,7 @@ const Contact = () => {
               Github <MdArrowOutward />
             </a>
             <a
-              href="https://www.linkedin.com/in/neeraj-singh-chauhan-0269322a9/"
+              href="https://www.linkedin.com/in/shashank-palingi-29ba8731b/"
               target="_blank"
               data-cursor="disable"
               className="contact-social"
@@ -39,7 +39,7 @@ const Contact = () => {
           </div>
           <div className="contact-box">
             <h2>
-              Designed and Developed <br /> by <span>Neeraj Singh Chauhan</span>
+              Designed and Developed <br /> by <span>Shashank Palingi</span>
             </h2>
             <h5>
               <MdCopyright /> 2026

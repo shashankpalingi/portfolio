@@ -2,7 +2,7 @@ import {
   FaGithub,
   FaLinkedinIn,
 } from "react-icons/fa6";
-import "./styles/SocialIcons.css";
+import "../styles/components/SocialIcons.css";
 import { TbNotes } from "react-icons/tb";
 import { useEffect } from "react";
 import HoverLinks from "./HoverLinks";
@@ -58,18 +58,18 @@ const SocialIcons = () => {
     <div className="icons-section">
       <div className="social-icons" data-cursor="icons" id="social">
         <span>
-          <a href="https://github.com/neerajsinghchauhan" target="_blank">
+          <a href="https://github.com/shashankpalingi" target="_blank">
             <FaGithub />
           </a>
         </span>
         <span>
-          <a href="https://www.linkedin.com/in/neeraj-singh-chauhan-0269322a9/" target="_blank">
+          <a href="https://www.linkedin.com/in/shashank-palingi-29ba8731b/" target="_blank">
             <FaLinkedinIn />
           </a>
         </span>
         {/* Intentionally removed X and Instagram per resume details */}
       </div>
-      <a className="resume-button" href="/resume.pdf" target="_blank" rel="noopener noreferrer" download="Resume.pdf">
+      <a className="resume-button" href="/Shashank_Palingi.pdf" target="_blank" rel="noopener noreferrer" download="Shashank_Palingi.pdf">
         <HoverLinks text="RESUME" />
         <span>
           <TbNotes />

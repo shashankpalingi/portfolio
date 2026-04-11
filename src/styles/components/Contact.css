@@ -8,9 +8,11 @@
 }
 
 .contact-section h3 {
+  font-family: "Outfit", sans-serif;
   font-size: 60px;
-  font-weight: 400;
+  font-weight: 600;
   text-transform: uppercase;
+  letter-spacing: -0.03em;
   margin: 0;
 }
 
@@ -20,7 +22,11 @@
 }
 
 .contact-flex h4 {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 12px;
   font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
   margin: 0;
   opacity: 0.6;
 }
@@ -51,8 +57,10 @@ a.contact-social {
 }
 
 .contact-box h5 {
-  font-size: 20px;
-  font-weight: 500;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.05em;
   line-height: 20px;
   display: flex;
   gap: 10px;
